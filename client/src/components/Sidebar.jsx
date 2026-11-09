@@ -1,23 +1,23 @@
 export default function Sidebar() {
-return (
-        <aside className="sidebar">
-            <div className="brand">
-                <div className="brandMark">T</div>
-                <div>
-                    <strong>TaskFlow</strong>
-                    <span>student edition</span>
-                </div>
-            </div>
-            <nav className="menu" aria-label="Основная навигация">
-                <button className="menuItem active" type="button">Обзор</button>
-                <button className="menuItem" type="button">Мои задачи</button>
-                <button className="menuItem" type="button">Доска</button>
-                <button className="menuItem" type="button">Проекты</button>
-            </nav>
-            <div className="sidebarNote">
-                <strong>Рагимов Аскер</strong>
-                <span>ИКБО-20-25</span>
-            </div>
-        </aside>
-    );
+  return (
+    <aside className="sidebar">
+      <div className="brand">
+        <div className="brandMark">T</div>
+        <div>
+          <strong>TaskFlow</strong>
+          <span>student edition</span>
+        </div>
+      </div>
+      <nav className="menu" aria-label="Основная навигация">
+        <button className="menuItem active" type="button">Обзор</button>
+        <button className="menuItem" type="button">Мои задачи</button>
+        <button className="menuItem" type="button">Доска</button>
+        <button className="menuItem" type="button">Проекты</button>
+      </nav>
+      <div className="sidebarNote">
+        <strong>Практика 2</strong>
+        <span>Состояние, формы и localStorage (Рагимов А., ИКБО-20-25, Вар. 21)</span>
+      </div>
+    </aside>
+  );
 }
